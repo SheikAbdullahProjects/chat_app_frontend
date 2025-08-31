@@ -90,7 +90,7 @@ export const useAuthStore = create((set, get) => ({
     auth: {
       token: authUser?.token 
     }, query : {
-      userId : authUser.id
+      userId : authUser?.id
     }
   });
   
